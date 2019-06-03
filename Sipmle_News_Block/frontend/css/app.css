@@ -1,0 +1,74 @@
+.none {
+    display: none !important;
+}
+
+body {
+    background: url(../images/background.jpg) repeat;
+    font-family: Calibri sans-serif;
+}
+
+p {
+    margin: 0 0 5px;
+}
+
+.article {
+    background-color: azure;
+    border: 1px solid rgba(0, 89, 181 , 0.8);
+    border-radius: 10px;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 0 5px;
+    box-shadow: 2px 2px 5px -1px rgb(0, 81, 202);
+    padding: 5px;
+}
+
+.news__author {
+    text-decoration: underline;
+    color: deepskyblue;
+}
+
+.news__count {
+    margin: 10px 0 0 0;
+    display: block;
+}
+
+.news__readmore {
+    cursor: pointer;
+}
+
+.add {
+    margin: 0 5px 5px 0;
+    width: 210px;
+    border: 1px dashed rgba(0, 89, 181, .82);
+}
+
+.add__author, .add__text, .add__btn, .add__checkRule {
+    display: block;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 94%;
+    border: 1px solid rgba(0, 89, 181, .82);
+}
+
+.add__checkRule {
+    border:none;
+    font-size: 12px;
+}
+
+.add__btn {
+    box-sizing: content-box;
+    color: #fff;
+    text-transform: uppercase;
+    background: #007DDC;
+    cursor: pointer;
+}
+
+.add__btn:hover {
+    box-shadow: 2px 2px 5px -1px rgb(0, 81, 202);
+    cursor: pointer;
+}
+
+.add__btn:disabled {
+    background: #ccc;
+    color: #999;
+}
